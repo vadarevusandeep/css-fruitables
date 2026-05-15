@@ -9,21 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <style>
-     .topbar{
-    background-color: rgb(134, 200, 0);
+    .topbar {
+        background-color: rgb(134, 200, 0);
 
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
 
-    padding: 18px 35px;
+        padding: 18px 35px;
 
-    margin: 20px 120px;
+        margin: 20px 120px;
 
-    border-radius: 50px;
+        border-radius: 50px;
 
-    color: white;
-    font-weight: bold;
-}
+        color: white;
+        font-weight: bold;
+    }
 
     header {
         display: flex;
@@ -31,247 +31,283 @@
         justify-content: space-between;
         padding: 20px 30px;
         height: 130px;
-        background-color:white;
+        background-color: white;
     }
-    
-    .div1{
+
+    .div1 {
         color: rgba(134, 234, 73, 0.964);
         font-weight: bold;
     }
-    nav{
+
+    nav {
         display: flex;
-        gap: 25px   ;
+        gap: 25px;
         font-weight: bold;
     }
 
-    nav a{
-    text-decoration: none;
-    color: black;
-}
-    .sec1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-    height: 350px;
-    background-image:url('https://png.pngtree.com/background/20210716/original/pngtree-beautiful-charming-yellow-green-gold-line-watercolor-background-picture-image_1330367.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(23, 234, 30);
-}
-.sec2{
-    margin: 50px;
-    padding: 50px;
-}
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
 
-.sec2 > div{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
+    .sec1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+        height: 350px;
+        background-image: url('https://png.pngtree.com/background/20210716/original/pngtree-beautiful-charming-yellow-green-gold-line-watercolor-background-picture-image_1330367.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgb(23, 234, 30);
+    }
 
-.sec2 > div > div{
-    width: 230px;
-    height: 300px;
+    .sec2 {
+        margin: 50px;
+        padding: 50px;
+    }
 
-    border: 2px solid rgb(154, 225, 72);
-    border-radius: 25px;
+    .sec2>div {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    .sec2>div>div {
+        width: 230px;
+        height: 300px;
 
-    text-align: center;
+        border: 2px solid rgb(154, 225, 72);
+        border-radius: 25px;
 
-    padding: 20px;
-    box-sizing: border-box;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-.sec2 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 20px;
-    object-fit: cover;
+        text-align: center;
 
-    margin-bottom: 15px;
-}
+        padding: 20px;
+        box-sizing: border-box;
+    }
 
-.sec2 h3{
-    margin: 10px 0;
-}
+    .sec2 img {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        object-fit: cover;
 
-.sec2 p{
-    margin: 0;
-}
-.product-section{
-    padding: 60px;
-    background-color: #f8f8f8;
-}
+        margin-bottom: 15px;
+    }
 
-.product-card{
-    border: 1px solid orange;
-    border-radius: 20px;
-    overflow: hidden;
-    background-color: white;
-    transition: 0.3s;
-}
+    .sec2 h3 {
+        margin: 10px 0;
+    }
 
-.product-card img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
+    .sec2 p {
+        margin: 0;
+    }
 
-.fruit-tag{
-    background-color: orange;
-    color: white;
-    padding: 8px 18px;
-    border-radius: 15px;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
+    .product-section {
+        padding: 60px;
+        background-color: #f8f8f8;
+    }
 
-.product-content{
-    padding: 20px;
-    text-align: center;
-}
+    .product-card {
+        border: 1px solid orange;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: white;
+        transition: 0.3s;
+    }
 
-.cart-btn{
-    border: 1px solid orange;
-    border-radius: 30px;
-    padding: 8px 20px;
-    background-color: white;
-    color: green;
-    font-weight: bold;
-}
+    .product-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
 
-.offer-section{
-    background-color: #f9b61c;
-    padding: 80px;
-}
+    .fruit-tag {
+        background-color: orange;
+        color: white;
+        padding: 8px 18px;
+        border-radius: 15px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
 
-.offer-text h1{
-    font-size: 70px;
-    color: white;
-    font-weight: bold;
-}
+    .product-content {
+        padding: 20px;
+        text-align: center;
+    }
 
-.offer-text h2{
-    font-size: 80px;
-    color: #45595b;
-}
+    .cart-btn {
+        border: 1px solid orange;
+        border-radius: 30px;
+        padding: 8px 20px;
+        background-color: white;
+        color: green;
+        font-weight: bold;
+    }
 
-.offer-text p{
-    color: #45595b;
-    font-size: 22px;
-}
+    .offer-section {
+        background-color: #f9b61c;
+        padding: 80px;
+    }
 
-.buy-btn{
-    border: 2px solid white;
-    padding: 15px 45px;
-    border-radius: 40px;
-    background-color: transparent;
-    color: #45595b;
-    font-size: 25px;
-    font-weight: bold;
-}
+    .offer-text h1 {
+        font-size: 70px;
+        color: white;
+        font-weight: bold;
+    }
 
-.offer-image{
-    position: relative;
-}
+    .offer-text h2 {
+        font-size: 80px;
+        color: #45595b;
+    }
+
+    .offer-text p {
+        color: #45595b;
+        font-size: 22px;
+    }
+
+    .buy-btn {
+        border: 2px solid white;
+        padding: 15px 45px;
+        border-radius: 40px;
+        background-color: transparent;
+        color: #45595b;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .offer-image {
+        position: relative;
+    }
 
 
-.price-circle h1{
-    font-size: 80px;
-    color: #45595b;
-}
+    .price-circle h1 {
+        font-size: 80px;
+        color: #45595b;
+    }
 
-.price-circle span{
-    font-size: 40px;
-}
-.price-circle{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer{
-    background-color: #45595b;
-    color: white;
-    padding: 60px 80px;
-}
+    .price-circle span {
+        font-size: 40px;
+    }
 
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    flex-wrap: wrap;
-}
+    .price-circle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.footer-box{
-    flex: 1;
-    min-width: 220px;
-}
+    .footer {
+        background-color: #45595b;
+        color: white;
+        padding: 60px 80px;
+    }
 
-.footer-box h2,
-.footer-box h3{
-    margin-bottom: 20px;
-    color: #ffb524;
-}
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
 
-.footer-box p{
-    line-height: 28px;
-    color: #dcdcdc;
-}
+    .footer-box {
+        flex: 1;
+        min-width: 220px;
+    }
 
-.footer-box a{
-    display: block;
-    text-decoration: none;
-    color: #dcdcdc;
-    margin-bottom: 12px;
-}
+    .footer-box h2,
+    .footer-box h3 {
+        margin-bottom: 20px;
+        color: #ffb524;
+    }
 
-.footer-box a:hover{
-    color: #ffb524;
-}
+    .footer-box p {
+        line-height: 28px;
+        color: #dcdcdc;
+    }
 
-.footer-input{
+    .footer-box a {
+        display: block;
+        text-decoration: none;
+        color: #dcdcdc;
+        margin-bottom: 12px;
+    }
+
+    .footer-box a:hover {
+        color: #ffb524;
+    }
+
+    .footer-input {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .footer-input input {
+        padding: 12px;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 30px 0 0 30px;
+    }
+
+    .footer-input button {
+        padding: 12px 20px;
+        border: none;
+        background-color: #81c408;
+        color: white;
+        border-radius: 0 30px 30px 0;
+        font-weight: bold;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 40px;
+        border-top: 1px solid gray;
+        padding-top: 20px;
+        color: #dcdcdc;
+    }
+
+    .search-bar{
     display: flex;
     margin-top: 20px;
 }
 
-.footer-input input{
-    padding: 12px;
-    width: 100%;
-    border: none;
+.search-bar input{
+    width: 300px;
+    padding: 15px 20px;
+
+    border: 3px solid greenyellow;
+    border-right: none;
+
+    border-radius: 50px 0 0 50px;
+
     outline: none;
-    border-radius: 30px 0 0 30px;
+    font-size: 16px;
 }
 
-.footer-input button{
-    padding: 12px 20px;
-    border: none;
-    background-color: #81c408;
-    color: white;
-    border-radius: 0 30px 30px 0;
+.search-bar button{
+    padding: 15px 30px;
+
+    border: 3px solid greenyellow;
+    background-color: greenyellow;
+
+    border-radius: 0 50px 50px 0;
+
     font-weight: bold;
-}
-
-.footer-bottom{
-    text-align: center;
-    margin-top: 40px;
-    border-top: 1px solid gray;
-    padding-top: 20px;
-    color: #dcdcdc;
+    cursor: pointer;
 }
 </style>
 
@@ -279,123 +315,228 @@
     <!-- header -->
     <div class="topbar">
 
-    <div class="top-left">
-        <span>123 Street, New York</span>
-        <span>✉️ Email@Example.com</span>
-    </div>
+        <div class="top-left">
+            <span>123 Street, New York</span>
+            <span>✉️ Email@Example.com</span>
+        </div>
 
-    <div class="top-right">
-        <span>Privacy Policy</span>
-        <span>/</span>
-        <span>Terms of Use</span>
-        <span>/</span>
-        <span>Sales and Refunds</span>
-    </div>
+        <div class="top-right">
+            <span>Privacy Policy</span>
+            <span>/</span>
+            <span>Terms of Use</span>
+            <span>/</span>
+            <span>Sales and Refunds</span>
+        </div>
 
-</div>
+    </div>
     <header>
         <div class="div1">
             <h1>Fruitables</h1>
         </div>
 
         <nav>
-                <a href="" style="color: rgb(156, 224, 122);">home</a>
-                <a href="">shop</a>
-                <a href="">shop details</a>
-                <a href="">contact</a>
-            </nav>
+            <a href="" style="color: rgb(156, 224, 122);">home</a>
+            <a href="">shop</a>
+            <a href="">shop details</a>
+            <a href="">contact</a>
+        </nav>
 
         <div class="div2">
             🔍 👤
         </div>
     </header>
 
-        <!-- section1 -->
-        <section class="sec1">
-            <div>
-                <p>100% Organic Foods</p>
-                <h1>Organic Veggies &</h1>
-                <H1>Fruits Foods</H1>
-                <input type="text" placeholder="search">
-                <button style="border: radius 50px;">submit</button>
-           </div>
-           <div>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOWCRfsH_7_5wyZfb7Cl-_iBFxTjteeA4tQ&s"  style="width: 400px">
-           </div>
-        </section>
+    <!-- section1 -->
+    <section class="sec1">
+        <div>
+            <p>100% Organic Foods</p>
+            <h1>Organic Veggies &</h1>
+            <H1>Fruits Foods</H1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button>Submit</button>
+            </div>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOWCRfsH_7_5wyZfb7Cl-_iBFxTjteeA4tQ&s"
+                style="width: 400px">
+        </div>
+    </section>
 
-        <!-- section2 -->
-        <section class="sec2">
-            <div>
+    <!-- section2 -->
+    <section class="sec2">
+        <div>
             <div>
                 <img src="1.png">
                 <h3>Free Shipping</h3>
                 <p>free on order over $300</p>
             </div>
 
-             <div>
+            <div>
                 <img src="2.png">
                 <h3>Security Payment</h3>
                 <p>free on order over $300</p>
             </div>
 
-             <div>
+            <div>
                 <img src="3.png">
                 <h3>30 day return</h3>
                 <p>free on order over $300</p>
             </div>
 
-             <div>
+            <div>
                 <img src="4.png">
                 <h3>24/7 support</h3>
                 <p>free on order over $300</p>
             </div>
+        </div>
+    </section>
+
+    <!-- section3 -->
+
+    <section class="product-section">
+
+        <div class="d-flex justify-content-between align-items-center mb-5">
+
+            <h1>Our Organic Products</h1>
+
+            <div class="d-flex gap-3">
+                <button class="btn btn-warning rounded-pill text-white">All Products</button>
+                <button class="btn btn-light rounded-pill">Vegetables</button>
+                <button class="btn btn-light rounded-pill">Fruits</button>
+                <button class="btn btn-light rounded-pill">Bread</button>
+                <button class="btn btn-light rounded-pill">Meat</button>
             </div>
-        </section>
 
-        <!-- section3 -->
-
-<section class="product-section">
-
-    <div class="d-flex justify-content-between align-items-center mb-5">
-
-        <h1>Our Organic Products</h1>
-
-        <div class="d-flex gap-3">
-            <button class="btn btn-warning rounded-pill text-white">All Products</button>
-            <button class="btn btn-light rounded-pill">Vegetables</button>
-            <button class="btn btn-light rounded-pill">Fruits</button>
-            <button class="btn btn-light rounded-pill">Bread</button>
-            <button class="btn btn-light rounded-pill">Meat</button>
         </div>
 
-    </div>
+        <div class="row g-4">
 
-    <div class="row g-4">
+            <!-- card1 -->
 
-        <!-- card1 -->
+            <div class="col-md-3">
 
-        <div class="col-md-3">
+                <div class="product-card position-relative">
 
-            <div class="product-card position-relative">
+                    <span class="fruit-tag">Fruits</span>
 
-                <span class="fruit-tag">Fruits</span>
+                    <img
+                        src="https://st5.depositphotos.com/35914836/66135/i/450/depositphotos_661354650-stock-photo-background-photo-bunch-blue-grapes.jpg">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0iDlbq9YzH5qj3KZ4Xx7Yt9L6XrD7yA2yA&s">
+                    <div class="product-content">
 
-                <div class="product-content">
+                        <h2>Grapes</h2>
 
-                    <h2>Grapes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="d-flex justify-content-between align-items-center">
 
-                    <div class="d-flex justify-content-between align-items-center">
+                            <h4>$4.99 / kg</h4>
 
-                        <h4>$4.99 / kg</h4>
+                            <button class="cart-btn">
+                                🛒 Add to cart
+                            </button>
 
-                        <button class="cart-btn">
-                            🛒 Add to cart
-                        </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- card2 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card position-relative">
+
+                    <span class="fruit-tag">Fruits</span>
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOWCRfsH_7_5wyZfb7Cl-_iBFxTjteeA4tQ&s">
+
+                    <div class="product-content">
+
+                        <h2>Raspberry</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h4>$4.99 / kg</h4>
+
+                            <button class="cart-btn">
+                                🛒 Add to cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- card3 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card position-relative">
+
+                    <span class="fruit-tag">Fruits</span>
+
+                    <img
+                        src="https://images.immediate.co.uk/production/volatile/sites/10/2023/05/2048x1365SEOApricotGettyImages-507516539-bca58d1.jpg?quality=90&resize=940,627">
+
+                    <div class="product-content">
+
+                        <h2>Apricot</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h4>$4.99 / kg</h4>
+
+                            <button class="cart-btn">
+                                🛒 Add to cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- card4 -->
+
+            <div class="col-md-3">
+
+                <div class="product-card position-relative">
+
+                    <span class="fruit-tag">Fruits</span>
+
+                    <img
+                        src="https://www.shutterstock.com/image-photo/orange-fruit-leaves-half-isolated-600nw-2456317693.jpg">
+
+                    <div class="product-content">
+
+                        <h2>Orange</h2>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+
+                            <h4>$4.99 / kg</h4>
+
+                            <button class="cart-btn">
+                                🛒 Add to cart
+                            </button>
+
+                        </div>
 
                     </div>
 
@@ -405,31 +546,47 @@
 
         </div>
 
-        <!-- card2 -->
+    </section>
 
-        <div class="col-md-3">
+    <!-- section4 -->
 
-            <div class="product-card position-relative">
+    <section class="offer-section">
 
-                <span class="fruit-tag">Fruits</span>
+        <div class="container">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFOWCRfsH_7_5wyZfb7Cl-_iBFxTjteeA4tQ&s">
+            <div class="row align-items-center">
 
-                <div class="product-content">
+                <!-- left side -->
 
-                    <h2>Raspberry</h2>
+                <div class="col-md-6 offer-text">
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    <h1>Fresh Exotic Fruits</h1>
 
-                    <div class="d-flex justify-content-between align-items-center">
+                    <h2>in Our Store</h2>
 
-                        <h4>$4.99 / kg</h4>
+                    <p>
+                        The generated Lorem Ipsum is therefore always free from
+                        repetition injected humour, or non-characteristic words etc.
+                    </p>
 
-                        <button class="cart-btn">
-                            🛒 Add to cart
-                        </button>
+                    <button class="buy-btn mt-4">
+                        BUY
+                    </button>
 
+                </div>
+
+                <!-- right side -->
+
+                <div class="col-md-6 offer-image text-center">
+
+                    <div class="price-circle">
+                        <h1>
+                            1
+                            <span>50$ <br> kg</span>
+                        </h1>
                     </div>
+
+                    <img src="https://themewagon.github.io/fruitables/img/baner-1.png" class="img-fluid">
 
                 </div>
 
@@ -437,201 +594,86 @@
 
         </div>
 
-        <!-- card3 -->
+    </section>
 
-        <div class="col-md-3">
 
-            <div class="product-card position-relative">
+    <!-- footer -->
 
-                <span class="fruit-tag">Fruits</span>
+    <footer class="footer">
 
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xwXjA7u2U5J4v6F9W5P8M0M9A4yL5T9p0Q&s">
+        <div class="footer-container">
 
-                <div class="product-content">
+            <!-- company -->
 
-                    <h2>Apricot</h2>
+            <div class="footer-box">
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-
-                    <div class="d-flex justify-content-between align-items-center">
-
-                        <h4>$4.99 / kg</h4>
-
-                        <button class="cart-btn">
-                            🛒 Add to cart
-                        </button>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- card4 -->
-
-        <div class="col-md-3">
-
-            <div class="product-card position-relative">
-
-                <span class="fruit-tag">Fruits</span>
-
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0xwXjA7u2U5J4v6F9W5P8M0M9A4yL5T9p0Q&s">
-
-                <div class="product-content">
-
-                    <h2>Orange</h2>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-
-                    <div class="d-flex justify-content-between align-items-center">
-
-                        <h4>$4.99 / kg</h4>
-
-                        <button class="cart-btn">
-                            🛒 Add to cart
-                        </button>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- section4 -->
-
-<section class="offer-section">
-
-    <div class="container">
-
-        <div class="row align-items-center">
-
-            <!-- left side -->
-
-            <div class="col-md-6 offer-text">
-
-                <h1>Fresh Exotic Fruits</h1>
-
-                <h2>in Our Store</h2>
+                <h2>Fruitables</h2>
 
                 <p>
-                    The generated Lorem Ipsum is therefore always free from
-                    repetition injected humour, or non-characteristic words etc.
+                    Fresh organic fruits and vegetables directly from farms.
+                    Healthy food for healthy life.
                 </p>
 
-                <button class="buy-btn mt-4">
-                    BUY
-                </button>
-
-            </div>
-
-            <!-- right side -->
-
-            <div class="col-md-6 offer-image text-center">
-
-                <div class="price-circle">
-                    <h1>
-                        1
-                        <span>50$ <br> kg</span>
-                    </h1>
+                <div class="footer-input">
+                    <input type="email" placeholder="Your Email">
+                    <button>Subscribe</button>
                 </div>
 
-                <img src="https://themewagon.github.io/fruitables/img/baner-1.png"
-                     class="img-fluid">
+            </div>
+
+            <!-- shop links -->
+
+            <div class="footer-box">
+
+                <h3>Shop Info</h3>
+
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Return Policy</a>
+
+            </div>
+
+            <!-- account -->
+
+            <div class="footer-box">
+
+                <h3>Account</h3>
+
+                <a href="">My Account</a>
+                <a href="">Shopping Cart</a>
+                <a href="">Wishlist</a>
+                <a href="">Order History</a>
+                <a href="">International Orders</a>
+
+            </div>
+
+            <!-- contact -->
+
+            <div class="footer-box">
+
+                <h3>Contact</h3>
+
+                <p>📍 123 Street, New York</p>
+                <p>📞 +91 9876543210</p>
+                <p>✉️ fruitables@gmail.com</p>
 
             </div>
 
         </div>
 
-    </div>
+        <!-- bottom -->
 
-</section>
-
-
-<!-- footer -->
-
-<footer class="footer">
-
-    <div class="footer-container">
-
-        <!-- company -->
-
-        <div class="footer-box">
-
-            <h2>Fruitables</h2>
+        <div class="footer-bottom">
 
             <p>
-                Fresh organic fruits and vegetables directly from farms.
-                Healthy food for healthy life.
+                © 2026 Fruitables. All Rights Reserved.
             </p>
 
-            <div class="footer-input">
-                <input type="email" placeholder="Your Email">
-                <button>Subscribe</button>
-            </div>
-
         </div>
 
-        <!-- shop links -->
-
-        <div class="footer-box">
-
-            <h3>Shop Info</h3>
-
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms & Conditions</a>
-            <a href="">Return Policy</a>
-
-        </div>
-
-        <!-- account -->
-
-        <div class="footer-box">
-
-            <h3>Account</h3>
-
-            <a href="">My Account</a>
-            <a href="">Shopping Cart</a>
-            <a href="">Wishlist</a>
-            <a href="">Order History</a>
-            <a href="">International Orders</a>
-
-        </div>
-
-        <!-- contact -->
-
-        <div class="footer-box">
-
-            <h3>Contact</h3>
-
-            <p>📍 123 Street, New York</p>
-            <p>📞 +91 9876543210</p>
-            <p>✉️ fruitables@gmail.com</p>
-
-        </div>
-
-    </div>
-
-    <!-- bottom -->
-
-    <div class="footer-bottom">
-
-        <p>
-            © 2026 Fruitables. All Rights Reserved.
-        </p>
-
-    </div>
-
-</footer>
+    </footer>
 </body>
 
 </html>
